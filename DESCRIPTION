@@ -1,17 +1,21 @@
 Package: Systemix
 Title: Systemix- Sales data visualization
 Version: 0.0.0.9000
-Authors@R: person('Simran', 'Chaudhary', email = 'SIMRAN.67C@GMAIL.COM', role = c('cre', 'aut'))
+Authors@R: 
+    person("Simran", "Chaudhary", , "SIMRAN.67C@GMAIL.COM", role = c("cre", "aut"))
 Description: Shiny Application with golem to visualize sales data
 License: MIT + file LICENSE
 Imports: 
-    config (>= 0.3.1),
-    dplyr,
     golem (>= 0.3.2),
-    pacman,
-    plotly,
-    readr,
     shiny (>= 1.7.1)
+Config/testthat/edition: 3
 Encoding: UTF-8
+Language: en-US
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/67simran/Systemix
+BugReports: https://github.com/67simran/Systemix/issues
